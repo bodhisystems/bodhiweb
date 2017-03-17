@@ -1,0 +1,199 @@
+/*-- mail --*/
+.input {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  margin: 0;
+  width: 100%;
+  vertical-align: top;
+}
+
+.input__field {
+  position: relative;
+  display: block;
+  float: right;
+  padding: 0.8em;
+  width: 60%;
+  border: none;
+  border-radius: 0;
+  background: #f0f0f0;
+  color: #aaa;
+  -webkit-appearance: none; /* for box shadows to show on iOS */
+}
+
+.input__field:focus {
+  outline: none;
+}
+
+.input__label {
+  display: inline-block;
+  float: right;
+  padding: 0 1em;
+  width: 40%;
+  color: #212121;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.input__label-content {
+  position: relative;
+  display: block;
+  padding:1.3em 0;
+  width: 100%;
+}
+/* Ichiro */
+.input--ichiro {
+  margin-top: 2em;
+}
+
+.input__field--ichiro {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  z-index: 100;
+  display: block;
+  padding: 0 1em;
+  width: 98.6%;
+  height: 86.5%;
+  background: #fff;
+  color: #212121;
+  opacity: 0;
+  -webkit-transform: scale3d(1, 0, 1);
+  transform: scale3d(1, 0, 1);
+  -webkit-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.input__label--ichiro {
+  width: 100%;
+  text-align: left;
+  cursor: text;
+}
+
+.input__label--ichiro::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #f5f5f5;
+  -webkit-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  border: 1px solid #e4e4e4;
+}
+
+.input__label-content--ichiro {
+  -webkit-transform-origin: 0% 50%;
+  transform-origin: 0% 50%;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+}
+
+.input__field--ichiro:focus,
+.input--filled .input__field--ichiro {
+  opacity: 1;
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+}
+
+.input__field--ichiro:focus + .input__label--ichiro,
+.input--filled .input__label--ichiro {
+  cursor: default;
+  pointer-events: none;
+}
+
+.input__field--ichiro:focus + .input__label--ichiro::before,
+.input--filled .input__label--ichiro::before {
+  -webkit-transform: scale3d(1, 1.5, 1);
+  transform: scale3d(1, 1.5, 1);
+  border: none;
+}
+
+.input__field--ichiro:focus + .input__label--ichiro .input__label-content--ichiro,
+.input--filled .input__label-content--ichiro {
+  -webkit-transform: translate3d(0, -2.9em, 0) scale3d(0.8, 0.8, 1);
+  transform:translate3d(0, -2.9em, 0) scale3d(0.8, 0.8, 1) translateZ(1px);
+}
+.w3_agile_mail_grid textarea {
+  outline: none;
+  width: 100%;
+  background: #f5f5f5;
+  color: #212121;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #e4e4e4;
+  min-height: 321px;
+  font-weight: bold;
+  margin: 2em 0 0;
+}
+.w3_agile_mail_grid textarea::-webkit-input-placeholder {
+  color: #212121 !important;
+}
+.w3_agile_mail_grid input[type="submit"] {
+  outline: none;
+  width: 100%;
+  background:#34b3f5;
+  color: #fff;
+  padding: 1em 0;
+  font-size: 1em;
+  font-weight: bold;
+  border: none;
+  text-transform: uppercase;
+  margin: 2em 0 0;
+  font-family:'Montserrat', sans-serif;
+  letter-spacing: 5px;
+}
+.w3_agile_mail_grid input[type="submit"]:hover{
+  background:#ff9d0f;
+}
+.agile_map iframe{
+  width:100%;
+  min-height:400px;
+  margin-bottom:-6px;
+}
+.w3_agileits_mail_left h4{
+  font-size: 1.1em;
+  padding: 1em;
+  color: #fff;
+  background: #34b3f5;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: 1px solid #34b3f5;
+}
+.w3_agileits_mail_left{
+  text-align:center;
+}
+.w3_agileits_mail_left h4 i{
+  padding-right:1em;
+  color:#fff;
+}
+.w3_agileits_mail_left p.wthree_address{
+  padding: 1em;
+  color: #999;
+  line-height: 1.8em;
+  border: 1px solid #dadada;
+}
+.w3_agileits_mail_left a{
+  color:#999;
+  text-decoration:none;
+  display:block;
+}
+.w3_agileits_mail_left a:hover{
+  color:#212121;
+}
+.wthree_address span{
+  display:block;
+}
+/*-- //mail --*/

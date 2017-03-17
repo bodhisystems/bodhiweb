@@ -1,0 +1,38 @@
+/*-- stats --*/
+.agile_count_grid_left{
+  float:left;
+}
+.agile_count_grid_left span,.agile_count_grid_right p{
+  font-size:2em;
+}
+.agile_count_grid_right{
+  float: left;
+  margin-left: 2em;
+}
+.agile_count_grid_right p{
+  color: #fff;
+  font-weight: bold;
+}
+.w3_agile_stats_grid h4{
+  font-size: 1.3em;
+  color: #fff;
+  margin:1em 0 0;
+  text-transform:capitalize;
+  letter-spacing: 3px;
+  position:relative;
+  padding-bottom: 2em;
+}
+.w3_agile_stats_grid h4:after{
+  content:'';
+  background:#34b3f5;
+  height:2px;
+  width:30%;
+  position:absolute;
+  bottom:0%;
+  left:0%;
+}
+.agile_count_grid_left span {
+  color:#34b3f5;
+  top: 5px;
+}
+/*-- //stats --*/

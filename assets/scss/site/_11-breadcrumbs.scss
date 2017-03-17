@@ -1,0 +1,22 @@
+/*-- breadcrumbs --*/
+.w3_agile_breadcrumbs{
+  padding:1em 0;
+  background:#f5f5f5;
+}
+.w3_agile_breadcrumbs ul li{
+  display:inline-block;
+  color:#212121;
+  text-transform:uppercase;
+  font-weight:600;
+}
+.w3_agile_breadcrumbs ul li i{
+  padding:0 2em;
+}
+.w3_agile_breadcrumbs ul li a{
+  color:#f56f19;
+  text-decoration:none;
+}
+.w3_agile_breadcrumbs ul li a:hover{
+  color:#212121;
+}
+/*-- //breadcrumbs --*/

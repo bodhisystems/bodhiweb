@@ -1,0 +1,97 @@
+/*-- services --*/
+.agileits_w3layouts_service_grid{
+  width: 150px;
+  height: 150px;
+  background: #34b3f5;
+  border-radius: 100px;
+  text-align: center;
+  margin: 0 auto;
+  box-shadow: 0px 4px 5px #2285b9;
+}
+.agile_services_grid:hover .agileits_w3layouts_service_grid{
+  background:#f56f19;
+  box-shadow:0px 4px 5px #bd530f;
+}
+.w3_agileits_service_grid{
+  border: 4px double #086798;
+  border-radius: 100px;
+  width: 130px;
+  height: 130px;
+  margin: 0 auto;
+}
+.agile_services_grid:hover .w3_agileits_service_grid{
+  border: 4px double #212121;
+}
+.agileits_w3layouts_service_grid i{
+  font-size: 2em;
+  color: #212121;
+  line-height: 3.4em;
+}
+.agile_services_grid:hover .agileits_w3layouts_service_grid i{
+  color:#fff;
+}
+.agileits_w3layouts_service_grid span{
+  width: 5px;
+  height: 5px;
+  background:#086798;
+  display: block;
+  margin: 0 auto;
+  border-radius: 25px;
+}
+.agile_services_grid:hover .agileits_w3layouts_service_grid span{
+  background:#212121;
+}
+.agile_services_grid{
+  text-align:center;
+}
+.agile_services_grid h4{
+  font-size: 1.2em;
+  color: #212121;
+  margin: 1.5em 0 1em;
+  text-transform: capitalize;
+  line-height: 1.5em;
+}
+.agile_services_grid p{
+  color:#999;
+  line-height:2em;
+  margin-bottom:2.5em;
+}
+.wthree_more a{
+  padding: 8px 35px;
+  border: 3px double #999;
+  color: #212121;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 14px;
+  text-decoration:none;
+}
+.wthree_more a:focus{
+  outline:none;
+}
+.wthree_more a:hover{
+  border-color:#f56f19;
+}
+/*-- //services --*/
+/*-- services-bottom --*/
+.services-bottom {
+  background: url(../images/14.jpg) no-repeat 0px 0px;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  background-attachment: fixed;
+}
+.services-bottom h3{
+  text-align: center;
+  font-size: 2em;
+  text-transform: capitalize;
+  line-height: 1.5em;
+  color: #fff;
+}
+.services-bottom h3 i{
+  color:#f56f19;
+  padding-right:1em;
+}
+/*-- //services-bottom --*/

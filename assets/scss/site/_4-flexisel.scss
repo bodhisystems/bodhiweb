@@ -1,0 +1,55 @@
+/*--flexisel--*/
+.flex-slider{
+    background:#222227;
+    padding: 70px 0 165px 0;
+}
+#flexiselDemo1 {
+    display: none;
+}
+.nbs-flexisel-container {
+    position: relative;
+    max-width: 100%;
+}
+.nbs-flexisel-ul {
+    position: relative;
+    width: 9999px;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.nbs-flexisel-inner {
+    overflow: hidden;
+    margin: 0px auto;
+    padding:0;
+}
+.nbs-flexisel-item {
+    float: left;
+    margin: 0;
+    padding: 0px;
+    position: relative;
+    line-height: 35px;
+}
+.nbs-flexisel-item > img {
+    cursor: pointer;
+    position: relative;
+}
+/*---- Nav ---*/
+.nbs-flexisel-nav-left, .nbs-flexisel-nav-right {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 100;
+    background:none;
+    top: -5% !important;
+    border-radius: 5px;
+    display:none;
+}
+.nbs-flexisel-nav-left {
+    left:91%;
+}
+.nbs-flexisel-nav-right {
+    right: 1.2%;
+    background:none;
+}
+/*--//flexisel--*/

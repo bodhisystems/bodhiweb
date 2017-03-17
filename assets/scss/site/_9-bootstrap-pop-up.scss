@@ -1,0 +1,36 @@
+/*-- bootstrap-pop-up --*/
+.modal-header {
+    font-size:2em;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    background: #34b3f5;
+}
+.close {
+    opacity: 1;
+}
+.modal-body p {
+    color: #999;
+    text-align: left;
+    padding:2em 2em 1em;
+    margin: 0 !important;
+    line-height:2em;
+}
+.modal-body p i {
+    display: block;
+    margin: 1em 0;
+    color: #212121;
+}
+.modal-body {
+    padding:0;
+}
+.modal-content {
+    border-radius: 0;
+}
+button.close {
+    font-size: 1.5em;
+    color:#337ea5;
+    outline: none;
+}
+/*-- //bootstrap-pop-up --*/

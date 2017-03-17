@@ -1,0 +1,114 @@
+/*-- work --*/
+.agileinfo_work_grids{
+  margin-top:1em;
+}
+.wthree_work_grid1{
+  padding-top:2em;
+}
+.agile_work_grid
+{
+  border: 6px solid #FFFFFF;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0px 0px 5px #333333;
+  -webkit-transition: 0.5s Ease;
+  -moz-transition: 0.5s Ease;
+  -o-transition: 0.5s Ease;
+  transition: 0.5s Ease;
+}
+
+.w3_agileits_sub_work
+{
+  color: rgba(0,0,0,0);
+  line-height: 1px;
+
+}
+.w3_agileits_sub_work:hover
+{
+  border: 6px solid #E0E0E0;
+  color:#212121;
+  line-height: 225px;
+  box-shadow: 0px 0px 10px 7px #FFFFFF;
+}
+.w3_agileits_sub_work>.agileits_w3layouts_work
+{
+  position: absolute;
+  top: 0px;
+  left: 0;
+  font-size: 2em;
+  width: 100%;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+.w3_agileits_sub_work:hover img
+{
+  opacity:.8;
+}
+.w3ls_featured_plan{
+  position:relative;
+}
+.w3l_plans_grid{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  background: #000;
+  -webkit-transition: all 0.2s ease-out 0s;
+  -moz-transition: all 0.2s ease-out 0s;
+  transition: all 0.2s ease-out 0s;
+}
+.agileits_featured_plans:hover .w3l_plans_grid{
+  opacity: 0.6;
+}
+.w3ls_featured_plan_pos{
+  position:absolute;
+  bottom:0%;
+  left:0%;
+  z-index: 9;
+}
+.w3ls_featured_plan_pos h4{
+  background: #34b3f5;
+  color: #fff;
+  font-size: 1em;
+  padding: .3em .5em;
+}
+.w3_featured_plan_bottom{
+  padding: 2em;
+  border: 1px solid #dcdbdb;
+}
+.w3_featured_plan_bottom h4 a{
+  font-size:1.1em;
+  color:#212121;
+  text-transform:capitalize;
+  text-decoration:none;
+}
+.w3_featured_plan_bottom h4 a:hover{
+  color:#f56f19;
+}
+.w3_featured_plan_bottom h4 a:focus{
+  outline:none;
+}
+.w3_featured_plan_bottom p{
+  margin:1em 0 2em;
+  color:#999;
+  line-height:2em;
+}
+.w3_featured_plan_bottom ul{
+  padding:2em 0 0;
+  border-top: 1px solid #dcdbdb;
+}
+.w3_featured_plan_bottom ul li{
+  display: inline-block;
+  color: #212121;
+  font-weight: 600;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+.w3_featured_plan_bottom ul li:first-child{
+  margin-right: 1em;
+  width: 15%;
+  border: 3px double #999;
+}
+/*-- //work --*/

@@ -1,0 +1,44 @@
+/*-- team --*/
+.agile_team_grid h4{
+  margin:1em 0 .5em;
+  color:#212121;
+  font-size: 1.1em;
+}
+.agile_team_grid p{
+  color:#34b3f5;
+}
+.agileits_w3layouts_team_grid{
+  position: relative;
+  overflow: hidden;
+}
+.agile_team_grid:hover .agileits_w3layouts_team_grid img{
+  opacity:0.55;
+}
+.agileits_w3layouts_team_grid{
+  text-align: center;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.agileits_w3layouts_team_grid img,.agileits_w3layouts_team_grid_pos{
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.agileits_w3layouts_team_grid_pos{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  margin: -150px auto 0;
+  opacity: 0;
+}
+.agile_team_grid:hover .agileits_w3layouts_team_grid_pos{
+  margin: 0 auto 0;
+  opacity: 1;
+}
+/*-- //team --*/
